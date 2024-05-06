@@ -79,11 +79,11 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
   [1] = LAYOUT_split_3x6_3(
   //.-----------------------------------------------------.                    .-----------------------------------------------------.
-      XXXXXXX, XXXXXXX, KC_BSLS, KC_QUOT, KC_SCLN, XXXXXXX,                      XXXXXXX, KC_MINS,  KC_EQL,  KC_GRV, XXXXXXX, XXXXXXX,
+      XXXXXXX, XXXXXXX, KC_BSLS, KC_QUOT, KC_SCLN, XXXXXXX,                      XXXXXXX,  KC_EQL, KC_MINS,  KC_GRV, XXXXXXX, XXXXXXX,
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
       XXXXXXX,    KC_0,    KC_9,    KC_8,    KC_7, XXXXXXX,                      XXXXXXX,    KC_4,    KC_3,    KC_2,    KC_1, XXXXXXX,
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
-      XXXXXXX, KC_SLSH,  KC_DOT, KC_COMM,    KC_6, XXXXXXX,                      XXXXXXX,    KC_5, KC_LBRC, KC_RBRC,   KC_F7, XXXXXXX,
+      XXXXXXX, KC_SLSH,  KC_DOT, KC_COMM,    KC_6, XXXXXXX,                      XXXXXXX,    KC_5, KC_RBRC, KC_LBRC,   KC_F7, XXXXXXX, // F7 is the key that I use to enter my BIOS
   //|--------+--------+--------+--------+--------+--------+--------.  .--------+--------+--------+--------+--------+--------+--------|
                                           _______, _______,  KC_TAB,    XXXXXXX, XXXXXXX, _______
   //                                    `--------------------------`  `--------------------------`
