@@ -4,3 +4,4 @@
 - Alt
 - Windows key
 - Funciton keys
+## TODO: Make it easier to type a capital G
