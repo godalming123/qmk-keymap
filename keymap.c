@@ -59,7 +59,7 @@ combo_t key_combos[] = {
 
     COMBO(mouse1, KC_BTN1),
     COMBO(mouse2, KC_BTN2),
-    COMBO(tap,    KC_TAB),
+    COMBO(tab,    KC_TAB),
     COMBO(delete, KC_DEL),
 };
 
