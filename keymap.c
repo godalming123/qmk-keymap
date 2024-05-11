@@ -2,8 +2,10 @@
 #define EE_HANDS
 
 // Macros to abbreviate long keypresses, so that they fit into the key grid
+#define ESC   ALT_T(KC_ESC)
 #define SPACE SFT_T(KC_SPC)
-#define BSPC LT(1, KC_BSPC)
+#define ENTER CTL_T(KC_ENT)
+#define BSPC  LT(1, KC_BSPC)
 
 // Mouse movement combos
 const uint16_t PROGMEM mouse_move_left[]  = {KC_Y, KC_H, COMBO_END};
@@ -30,10 +32,10 @@ const uint16_t PROGMEM page_up[]   = {KC_D, KC_C, COMBO_END};
 const uint16_t PROGMEM end[]       = {KC_F, KC_V, COMBO_END};
 
 // Other key combos
-const uint16_t PROGMEM mouse1[] = {SPACE, KC_G,   COMBO_END};
-const uint16_t PROGMEM mouse2[] = {SPACE, KC_ENT, COMBO_END};
-const uint16_t PROGMEM tab[]    = {BSPC,  KC_T,   COMBO_END};
-const uint16_t PROGMEM delete[] = {BSPC,  KC_ESC, COMBO_END};
+const uint16_t PROGMEM mouse1[] = {SPACE, ENTER, COMBO_END};
+const uint16_t PROGMEM mouse2[] = {SPACE, ESC,   COMBO_END};
+const uint16_t PROGMEM tab[]    = {BSPC,  KC_T,  COMBO_END};
+const uint16_t PROGMEM delete[] = {BSPC,  KC_G,  COMBO_END};
 
 // Define combos
 combo_t key_combos[] = {
@@ -73,7 +75,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   // ├────────┼────────┼────────┼────────┼────────┼────────┤                    ├────────┼────────┼────────┼────────┼────────┼────────┤
        XXXXXXX,    KC_B,    KC_P,    KC_M,    KC_N, XXXXXXX,                      XXXXXXX,    KC_V,    KC_C,    KC_X,   KC_Z,  XXXXXXX,
   // ╰────────┴────────┴────────┴────────┼────────┼────────┼────────╮  ╭────────┼────────┼────────┼────────┴────────┴────────┴────────╯
-                                            KC_ENT,   SPACE,    KC_G,       KC_T,    BSPC,  KC_ESC
+                                               ESC,   SPACE,   ENTER,       KC_T,    BSPC,    KC_G
   //                                     ╰────────┴────────┴────────╯  ╰────────┴────────┴────────╯
   ),
 
@@ -85,7 +87,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   // ├────────┼────────┼────────┼────────┼────────┼────────┤                    ├────────┼────────┼────────┼────────┼────────┼────────┤
        XXXXXXX, KC_SLSH,  KC_DOT, KC_COMM,    KC_6, XXXXXXX,                      XXXXXXX,    KC_5, KC_RBRC, KC_LBRC,   KC_F7, XXXXXXX, // F7 is the key that I use to enter my BIOS
   // ╰────────┴────────┴────────┴────────┼────────┼────────┼────────╮  ╭────────┼────────┼────────┼────────┴────────┴────────┴────────╯
-                                           _______, _______, XXXXXXX,    XXXXXXX, XXXXXXX, XXXXXXX
+                                           _______, _______, _______,    XXXXXXX, XXXXXXX, XXXXXXX
   //                                     ╰────────┴────────┴────────╯  ╰────────┴────────┴────────╯
   ),
 };
