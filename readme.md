@@ -1,5 +1,7 @@
 # QMK keymap
 
+![Visual representation of the 30 key keymap](./keymap.svg)
+
 ## Design guidelines
 - Comfort
 - Low cognitive load
