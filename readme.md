@@ -1,5 +1,11 @@
 # QMK keymap
 
+## Design guidelines
+- Comfort
+- Low cognitive load
+- Fast enough
+- Easy to learn for people that use a normal keyboard
+
 ## TODO: Add a couple of keys
 - Super key
 - Funciton keys
