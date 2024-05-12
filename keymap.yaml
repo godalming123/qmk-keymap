@@ -1,0 +1,51 @@
+# Godalming123's 30 key keymap, in YAML so that it can be visually represented with https://keymap-drawer.streamlit.app/
+
+layout:
+  qmk_keyboard: corne_rotated
+  qmk_layout: LAYOUT_split_3x6_3
+layers:
+  "Default":
+    - ["", Q, W, E, R, "", "", Y, U, I, O, ""]
+    - ["", A, S, D, F, "", "", H, J, K, L, ""]
+    - ["", Z, X, C, V, "", "", N, M, P, B, ""]
+    - G
+    - {h: Layer 2,  t: Bspc}
+    - T
+    - {h: Ctrl,   t: Enter}
+    - {h: Shift, t: Space}
+    - {h: Alt,   t: Esc}
+  "Layer 2":
+    - ["", "",   "`", "-", "=", "", "", ";", "'", '\', "",  ""]
+    - ["", "1",  "2", "3", "4", "", "", "7", "8", "9", "0", ""]
+    - ["", "F7", "[", "]", "5", "", "", "6", ",", ".", "/", ""]
+    - ""
+    - {type: held}
+    - ""
+    - {h: Ctrl,   t: Enter}
+    - {h: Shift, t: Space}
+    - {h: Alt,   t: Esc}
+combos:
+  - {p: [36, 37], k: "DEL", l: ["Default"]}
+  - {p: [37, 38], k: "TAB", l: ["Default"]}
+  - {p: [39, 40], k: "MOUSE 1", l: ["Default", "Layer 2"]}
+  - {p: [40, 41], k: "MOUSE 2", l: ["Default", "Layer 2"]}
+
+  - {p: [1, 13], k: "SCRL LF", l: ["Default"]}
+  - {p: [2, 14], k: "SCRL DN", l: ["Default"]}
+  - {p: [3, 15], k: "SCRL UP", l: ["Default"]}
+  - {p: [4, 16], k: "SCRL RG", l: ["Default"]}
+  
+  - {p: [7, 19], k: "MOUSE LF", l: ["Default"]}
+  - {p: [8, 20], k: "MOUSE DN", l: ["Default"]}
+  - {p: [9, 21], k: "MOUSE UP", l: ["Default"]}
+  - {p: [10, 22], k: "MOUSE RG", l: ["Default"]}
+  
+  - {p: [13, 25], k: "HOME",  l: ["Default"]}
+  - {p: [14, 26], k: "PG DN", l: ["Default"]}
+  - {p: [15, 27], k: "PG UP", l: ["Default"]}
+  - {p: [16, 28], k: "END",   l: ["Default"]}
+  
+  - {p: [19, 31], k: "LF ARROW", l: ["Default"]}
+  - {p: [20, 32], k: "DN ARROW", l: ["Default"]}
+  - {p: [21, 33], k: "UP ARROW", l: ["Default"]}
+  - {p: [22, 34], k: "RG ARROW", l: ["Default"]}
