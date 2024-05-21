@@ -1,6 +1,7 @@
 # QMK keymap
 
 ![Visual representation of the 30 key keymap](./keymap.svg)
+https://keymapdb.com/keymaps/godalming123/
 
 ## Design guidelines
 - Comfort
