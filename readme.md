@@ -25,3 +25,6 @@ https://keymapdb.com/keymaps/godalming123/
 - **Copying the combos on the base layer for navigation onto the same places on the symbols/numbers layer**
   
   This would allow for easier navigation when entering symbols, and numbers
+
+# Stargazers over time
+[![Stargazers over time](https://starchart.cc/godalming123/qmk-keymap.svg)](https://starchart.cc/godalming123/qmk-keymap)
