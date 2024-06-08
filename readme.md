@@ -9,11 +9,14 @@ https://keymapdb.com/keymaps/godalming123/
 - Fast enough
 - Easy to learn for people that use a normal keyboard
 
+## TODO: Create a custom layout for the letters
+This layout would be generated using the [letter layout evaluation](./letter%20layout%20evaluation.md) document.
+
 ## TODO: Add a couple of keys
 - Super key
 - Funciton keys
 
-## Potential changes to fix these problems
+## Potential changes
 - **Add super using either:**
   - Home row mods
   - [Combos](https://docs.qmk.fm/#/feature_combo):
