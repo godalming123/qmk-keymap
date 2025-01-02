@@ -7,6 +7,7 @@ SPACE_CADET_ENABLE = no
 GRAVE_ESC_ENABLE = no 
 MAGIC_ENABLE = no
 RGBLIGHT_ENABLE = no
+BACKLIGHT_ENABLE = no
 
 # Enable features that I want
 COMBO_ENABLE = yes
