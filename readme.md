@@ -33,7 +33,7 @@ https://msys.qmk.fm/guide.html
 git clone https://github.com/godalming123/qmk-keymap.git ~/qmk_firmware/keyboards/crkbd/keymaps/
 ```
 
-# 4. Compile & flash the keymap
+### 4. Compile & flash the keymap
 
 1. Connect the left keyboard half to the computer, without it being connected to the other half
 2. Run this command:
