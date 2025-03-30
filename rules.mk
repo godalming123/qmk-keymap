@@ -12,3 +12,4 @@ BACKLIGHT_ENABLE = no
 
 # Enable features that I want
 COMBO_ENABLE = yes
+MOUSEKEY_ENABLE = yes
